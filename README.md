@@ -14,3 +14,4 @@ https://stackoverflow.com/questions/25353348/handling-sigusr1-and-sigusr2-works-
 https://www.google.com/search?q=sigemptyset&rlz=1C5CHFA_enMA1009MA1009&sourceid=chrome&ie=UTF-8
 http://www.cs.kent.edu/~ruttan/sysprog/lectures/signals.html
 https://man7.org/linux/man-pages/man3/usleep.3.html
+https://www.google.com/search?q=bitwise+operator+setting&rlz=1C5CHFA_enMA1009MA1009&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiI0biut5v8AhXGQ6QEHcOmDiAQ_AUoAXoECAEQAw&biw=1640&bih=1306&dpr=2#imgrc=fJ2pKr1GKhFD4M

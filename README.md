@@ -1,5 +1,7 @@
 # MINI_TALK
 
+Description
+
 The purpose of this project is to code a small data exchange program using UNIX signals. It is an introductory project for the bigger UNIX projects that will appear later on in the cursus.
 
 https://cdn.intra.42.fr/pdf/pdf/57950/en.subject.pdf
@@ -15,3 +17,5 @@ https://www.google.com/search?q=sigemptyset&rlz=1C5CHFA_enMA1009MA1009&sourceid=
 http://www.cs.kent.edu/~ruttan/sysprog/lectures/signals.html
 https://man7.org/linux/man-pages/man3/usleep.3.html
 https://www.google.com/search?q=bitwise+operator+setting&rlz=1C5CHFA_enMA1009MA1009&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiI0biut5v8AhXGQ6QEHcOmDiAQ_AUoAXoECAEQAw&biw=1640&bih=1306&dpr=2#imgrc=fJ2pKr1GKhFD4M
+https://www.geeksforgeeks.org/how-to-use-make-utility-to-build-c-projects
+https://man7.org/linux/man-pages/man3/usleep.3.html

@@ -6,11 +6,12 @@
 /*   By: kben-ham <kben-ham@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/28 05:36:02 by kben-ham          #+#    #+#             */
-/*   Updated: 2022/12/28 16:29:03 by kben-ham         ###   ########.fr       */
+/*   Updated: 2023/02/21 16:13:04 by kben-ham         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minitalk.h"
+#include<stdio.h>
 
 int	g_r;
 
@@ -22,11 +23,10 @@ void	handl(int pid)
 
 void	ft_write(int g_r)
 {
-	write(1, "Recived", 7);
 	if (g_r == 1)
-		write(1, "Yes", 3);
+		write(1, "I recieved the message.", 23);
 	else
-		write(1, "No", 2);
+		write(1, "Oops! i didn't recieved anything.", 33);
 }
 
 int	main(int ac, char **av)
@@ -49,6 +49,7 @@ int	main(int ac, char **av)
 			{
 				kill(ft_atoi(av[1]), ((c >> num) & 1) + 30);
 				usleep(800);
+				usleep(100);
 			}
 		}
 		ft_write(g_r);
